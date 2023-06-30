@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  
+}
+header {
+  background: rgba(75, 147, 191, 1);
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  
+}
+header section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 15vw;
+}
+::-webkit-scrollbar{
+  width: 0px;
+  height: 0px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 40vw;
+  height: 10vh;
+  opacity: .9;
+  cursor: pointer;
+}
+
+
+li {
+  font-size: 18px;
+  
+}
+.inverno{
+background-color:#E4EEF1;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+height: 400px;
+
+
+}
+.inverno p{
+  padding-left: 50px;
+  font-size: 23px;
+  font-weight: 100px;
+  color: #0F468C;
+  text-align: justify;
+}
+.inverno figure img{
+  padding: 50px;
+  cursor: pointer;
+  
+}
+  h1:hover {
+    color: #E4EEF1;
+    cursor: pointer;
+    transform: scale(110%);
+
+}
+.gramado{
+  display: flex;
+  background: rgba(75, 147, 191, 1);
+  color: white;
+  justify-content: center;
+
+}
+.gramado h2{
+  text-align: center;
+  padding: 80px;
+}
+.ursos{
+  display: flex;
+  background-color:#E4EEF1;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  
+  
+}
+.ursos img{
+  padding: 30px;
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+ 
+ 
+
+}
+
+
+footer {
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  background: rgba(75, 147, 191, 1);
+  background-size: contain;
+  height: 150px;
+}
+
+footer p {
+  text-align: center;
+  color: white
+ 
+}
+.redes{
+  position: relative;
+  right: 200px;
+  bottom: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  
+  
+ }
+.nomes{
+  
+  position: relative;
+  right: 200px;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  
+  
+}
+.pinguim{
+ position: relative;
+ left: 500px;
+ bottom: 55px;
+ 
+}
